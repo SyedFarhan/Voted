@@ -38,14 +38,10 @@ class Product extends React.Component {
 }
 
 class ProductList extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
+    state = {
       products: [],
     };
 
-  }
 
 
   componentDidMount() {
